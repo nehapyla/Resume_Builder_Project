@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body{
+    /* width: 100vw;
+    height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: lightskyblue;
+	margin: 1rem;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 35rem;
+    height: 45rem;
+}
+
+.left{
+	background-color: orange;
+	width: 12rem;
+    height: 45rem;
+}
+
+.right{
+	width: 25rem;
+    height: 45rem;
+}
+
+.profileImg{
+	height: 11rem;
+	width: 11rem;
+	background-color: white;
+	border-radius: 50%;
+    margin-left: 3rem;
+	border: 10px solid orange;
+}
+
+.imgg{
+	width: 100%;
+	border-radius: 50%;
+}
+
+.heading{
+	background-color: darkslategray;
+	padding: 0.8rem;
+	color: orange;
+	text-align: left;
+}
+
+.p1{
+	margin: 0.7rem;
+	font-size: 0.7rem;
+}
+
+.skill{
+	text-align: right;
+	margin: 1rem;
+	color: white;
+}
+
+.nameDiv{
+	padding: 4rem;
+	text-align: center;
+}
+
+.box2{
+	margin: 2rem;
+}
+
+.p2{
+	font-size: 0.7rem;
+	margin-top: 0.3rem;
+}
+
+h2{
+	font-size: 1rem;
+	margin-bottom: 1.5rem;
+}
+
+.p3{
+	font-size: 0.7rem;
+	margin-top: 1rem;
+}
+
+.p3 span{
+	color: orange;
+    padding-left: 1rem;
+}

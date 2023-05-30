@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+	margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: lightskyblue;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 35rem;
+    height: 43rem;
+}
+
+.left{
+	background-color: orange;
+	width: 12rem;
+    height: 43rem;
+}
+
+.right{
+	width: 25rem;
+    height: 43rem;
+}
+
+.profileImg{
+	height: 11rem;
+	width: 11rem;
+	background-color: white;
+	border-radius: 50%;
+    margin-left: 3rem;
+	border: 10px solid orange;
+}
+
+.imgg{
+	width: 100%;
+	border-radius: 50%;
+}
+
+.heading{
+	background-color: darkslategray;
+	padding: 0.8rem;
+	color: orange;
+	text-align: left;
+}
+
+.p1{
+	margin: 0.5rem;
+	font-size: 0.7rem;
+}
+
+.skillContainer{
+	width: 90%;
+	background-color: darkslategray;
+	margin: 0.5rem;
+}
+
+.nameDiv{
+	padding: 5rem;
+	text-align: center;
+}
+
+.box2{
+	margin: 2rem;
+}
+
+.p2{
+	font-size: 0.7rem;
+	margin-top: 0.3rem;
+}
+
+h2{
+	font-size: 1rem;
+	margin-bottom: 1.5rem;
+}
+
+.p3{
+	font-size: 0.7rem;
+	margin-top: 1rem;
+}
+
+.p3 span{
+	color: orange;
+    padding-left: 1rem;
+}
+    </style>
+</head>
+<body id="bodyy">
+
+<section>
+        <div class="left">
+            <div class="profileImg"><img class="imgg" src="https://img.freepik.com/premium-vector/man-profile-cartoon_18591-58482.jpg?w=2000"></div>
+    
+            <div class="box">
+                <div class="heading">
+                    <p>CONTACT</p>
+                </div>
+                <p class="p1"><span>Phone: +91 </span>123456789</p>
+                <p class="p1"><span>Email: </span>example@gmail.com</p>
+                <p class="p1"><span>GitHub: </span>github link</p>
+                <p class="p1"><span>Address: </span>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+    
+            <div class="box">
+                <div class="heading">
+                    <p>PROFESSIONAL SKILLS</p>
+                </div>
+    
+                <p class="p1">Skill 1 
+                <div class="skillContainer">
+                    <div class="skill"></div>
+                </div>
+                </p>
+    
+                <p class="p1">Skill 2
+                <div class="skillContainer">
+                    <div class="skill"></div>
+                </div>
+                </p>
+    
+                <p class="p1">Skill 3
+                <div class="skillContainer">
+                    <div class="skill"></div>
+                </div>
+
+                <p class="p1">Skill 4
+                    <div class="skillContainer">
+                        <div class="skill"></div>
+                    </div>
+                </p>
+            </div>
+            <br>
+    
+            <div class="box">
+                <div class="heading">
+                    <p>INTERPERSONAL SKILLS</p>
+                </div>
+    
+                <p class="p1">Skill 1
+                <div class="skillContainer">
+                    <div class="skill"></div>
+                </div>
+                </p>
+    
+                <p class="p1">Skill 2
+                <div class="skillContainer">
+                    <div class="skill"></div>
+                </div>
+                </p>
+
+                <p class="p1">Skill 3
+                    <div class="skillContainer">
+                        <div class="skill"></div>
+                    </div>
+                </p>
+
+                <p class="p1">Skill 4
+                    <div class="skillContainer">
+                        <div class="skill"></div>
+                    </div>
+                </p>
+    
+            </div>
+    
+        </div>
+    
+    
+        <div class="right">
+            <div class="nameDiv">
+                <h1>FirstName</h1>
+                <h1>LastName</h1>
+            </div>
+    
+            <div class="box2">
+                <h2>OBJECTIVE </h2>
+                <p class="p2">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum iste nobis dolore necessitatibus repellat, enim vitae rerum omnis ratione facilis, dicta dolores totam. Placeat quasi ducimus officia temporibus ipsa animi.
+                </p>
+            </div>
+    
+    
+    
+            <div class="box2">
+                <h2>EDUCATION </h2>
+                <p class="p3">20-20 <span>College Name</span></p>
+                <p class="p2">
+                    Stream 
+                </p>
+    
+                <p class="p3">20-20 <span>Intermediate</span></p>
+                <p class="p2">
+                    Stream 
+                </p>
+    
+                <p class="p3">20-20 <span>School</span></p>
+                <p class="p2">
+                    Stream 
+                </p>
+            </div>
+    
+    
+            <div class="box2">
+                <h2>PROJECTS</h2>
+                <p class="p2">Project 1</p>
+                <p class="p2">Project 2</p>
+                <p class="p2">Project 3</p>
+                <p class="p2">Project 4</p>
+            </div>
+    
+        </div>
+    </section>
+
+
+    <div>
+        <button type="button" onclick="printResume()">Print Resume</button>
+    </div>
+
+    
+</body>
+</html>
